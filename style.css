@@ -1,0 +1,55 @@
+
+/* CSS for Home Page */
+
+body{
+font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+nav>ul>li:hover>ul {
+
+    display: block;
+}
+
+.drop {
+
+    display: none;
+    padding: 0;
+    position: absolute;
+    background-color: rgb(128, 158, 158);
+}
+
+
+li:hover {
+    background-color: rgb(29, 88, 90);
+    height: 17px;
+}
+
+nav>ul>li {
+    float: left;
+}
+
+nav {
+    font-size: 20px;
+    background-color: rgb(2, 149, 151);
+    height: 40px;
+}
+
+li {
+
+    list-style: none;
+    padding: 10px;
+    
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+       
+      
+    
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
